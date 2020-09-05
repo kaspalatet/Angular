@@ -9,8 +9,8 @@ export class AppareilComponent implements OnInit {
 
   constructor() { }
   
-  @input() appareilName: string;
-  @input() appareilStatus: string;
+  @Input() appareilName: string;
+  @Input() appareilStatus: string;
 
   ngOnInit(): void {
   }
