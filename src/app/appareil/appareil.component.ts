@@ -6,11 +6,11 @@ import { Component, Input, OnInit } from '@angular/core';
   styleUrls: ['./appareil.component.scss']
 })
 export class AppareilComponent implements OnInit {
-
-  constructor() { }
   
   @Input() appareilName: string;
   @Input() appareilStatus: string;
+
+  constructor() { }
 
   ngOnInit(): void {
   }

@@ -8,9 +8,9 @@ import { Component } from '@angular/core';
 export class AppComponent {
   isAuth = false;
   
-  appareilOne='Machine à laver';
-  appareilTwo='Télévision';
-  appareilThree='Ordinateur';
+  appareilOne = 'Machine à laver';
+  appareilTwo = 'Frigo';
+  appareilThree = 'Ordinateur';
   
   constructor(){
     setTimeout(
