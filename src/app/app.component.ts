@@ -7,6 +7,11 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   isAuth = false;
+  
+  appareilOne='Machine à laver';
+  appareilTwo='Télévision';
+  appareilThree='Ordinateur';
+  
   constructor(){
     setTimeout(
       () => {
@@ -18,4 +23,3 @@ export class AppComponent {
     console.log('On allume tout !');
   }
 }
-
