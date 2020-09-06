@@ -8,18 +8,18 @@ import { Component } from '@angular/core';
 export class AppComponent {
   isAuth = false;
   
-  appareils= [
+  appareils = [
     {
-      name:'Machine à laver',
-      status:'éteint'
+      name: 'Machine à laver',
+      status: 'éteint'
     },
     {
-      name:'Télévision',
-      status:'allumé'
+      name: 'Frigo',
+      status: 'allumé'
     },
     {
-      name:'Ordinateur',
-      status:'éteint'
+      name: 'Ordinateur',
+      status: 'éteint'
     }
   ];
   
